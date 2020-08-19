@@ -16,11 +16,10 @@ function yourAnimal() {
 }
 
 function add2(n) {
-<<<<<<< HEAD
   return (n + 2)
-=======
+
   return (n + 2);
->>>>>>> d337c971b8da3e974b3642909e712f65c87f5466
+
 
   // Feel free to move things around!
 }
@@ -33,4 +32,5 @@ function funkyFunction(){
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = "FUNKY!";
+var theFunk = funkyFunction()
+var theFunk = funkyFunction()();
