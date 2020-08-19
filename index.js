@@ -16,14 +16,18 @@ function yourAnimal() {
 }
 
 function add2(n) {
+<<<<<<< HEAD
   return (n + 2)
+=======
+  return (n + 2);
+>>>>>>> d337c971b8da3e974b3642909e712f65c87f5466
 
   // Feel free to move things around!
 }
 
-var funkyFunction = function() {
-  return function() {
-    return "FUNKY!"
+function funkyFunction(){
+  var theFunk = "FUNKY!"
+    return theFunk
   }
 }
 
